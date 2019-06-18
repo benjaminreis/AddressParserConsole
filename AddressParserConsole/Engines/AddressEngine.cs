@@ -1,9 +1,9 @@
 ﻿using System;
 namespace AddressParserConsole.Engines
 {
-    public class AddressEngine
+    internal class AddressEngine
     {
-        public AddressEngine()
+        internal AddressEngine()
         {
         }
 

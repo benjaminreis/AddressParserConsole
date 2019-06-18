@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace AddressParserConsole.Managers
 {
-    public class AddressManager
+    internal class AddressManager
     {
-        public AddressManager()
+        internal AddressManager()
         {
         }
 
@@ -15,7 +15,6 @@ namespace AddressParserConsole.Managers
         internal List<Models.AddressModel> ProcessAddresses()
         {
             var Addresses = _AddressAccessor.GetAddresses();
-
 
 
             foreach (Models.AddressModel address in Addresses)
