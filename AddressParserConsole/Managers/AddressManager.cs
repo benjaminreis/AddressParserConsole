@@ -17,6 +17,7 @@ namespace AddressParserConsole.Managers
             var Addresses = _AddressAccessor.GetAddresses();
 
 
+
             foreach (Models.AddressModel address in Addresses)
             {
                 #region "Washington"
