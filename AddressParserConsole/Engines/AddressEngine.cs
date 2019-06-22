@@ -609,8 +609,19 @@ namespace AddressParserConsole.Engines
 
         internal string Handle14th(int nHouseNumber)
         {
+            if (nHouseNumber <= 1999 && nHouseNumber > 1600)
+            {
+                return "19";
+            }
 
-
+            if (nHouseNumber <= 1599 && nHouseNumber > 1100)
+            {
+                return "17";
+            }
+            if (nHouseNumber <= 1099 && nHouseNumber > 800)
+            {
+                return "1";
+            }
         }
 
         internal string Handle15th(int nHouseNumber)
